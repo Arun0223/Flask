@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BASIC</title>
+</head>
+<body>
+<h1>Hello....! Welcome to first Flask application</h1>
+<h2>Here is a pic of something.....!</h2>
+<img src="../static/pic.jpg">
+<br>
+<br>
+<br>
+<h1>Hello....! {{my_var}}</h1>
+<h1>{{a}}</h1>
+<h1>{{A}}</h1>
+<ul>
+    {% for i in A %}
+    <li>{{A[i]}}</li>
+    {% endfor %}
+</ul>
+{%if a>=18%}
+    <p>You can vote...!</p>
+{% else %}
+    <p>You can't</p>
+{% endif %}
+</body>
+</html>

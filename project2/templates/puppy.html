@@ -1,0 +1,7 @@
+{% extends "basic.html" %}
+
+{% block content %}
+<a href="{{url_for('static',filename='pic.jpg')}}">click here</a>
+<h1>{{name | upper }}</h1>
+
+{% endblock %}
